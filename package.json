@@ -1,0 +1,13 @@
+{
+  "name": "ts_addon",
+  "version": "0.1.0",
+  "description": "Native TypeScript NodeJS addon",
+  "scripts": {
+    "build": "node-gyp build",
+    "test": "tsc main.ts && node main.js"
+  },
+  "dependencies": {
+    "node-gyp": "^8.1.0",
+    "typescript": "^4.3.4"
+  }
+}
